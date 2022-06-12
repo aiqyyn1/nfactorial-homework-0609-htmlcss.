@@ -1,0 +1,94 @@
+            #joke {
+                height: auto;
+                background-color: palegoldenrod;
+                display: flex;
+                justify-content: center;
+                border: 2px solid black;
+            }
+            
+            body {
+                background-color: aqua;
+            }
+            
+            .box {
+                display: flex;
+            }
+            
+            #tom_result {
+                /* flex: 3; */
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            
+            #wrapper {
+                display: flex;
+                justify-content: left;
+                align-items: left;
+                padding-top: 20px;
+                margin: 2px;
+                font-size: 30px;
+                height: 150px;
+                width: 150px;
+                flex-direction: column;
+                border: 2px solid black;
+            }
+            
+            #switch_madlibs {
+                height: 20px;
+                width: 100px;
+                margin: 10px;
+                border: 0px;
+                background-color: aqua;
+                font-size: 20px;
+            }
+            
+            #switch_tom {
+                height: 20px;
+                width: 100px;
+                margin: 10px;
+                border: 0px;
+                background-color: aqua;
+                font-size: 20px;
+            }
+            
+            #pop {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .input {
+                margin: 10px;
+            }
+            
+            .input input {
+                border: 1px solid red;
+            }
+            
+            #button {
+                height: 20px;
+                width: 100px;
+                margin: 10px;
+                border: 0px;
+                font-size: 10px;
+            }
+            
+            #example {
+                background-color: black;
+                width: 100px;
+                height: 100px;
+            }
+            
+            #madlibs_result {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            
+            #button1 {
+                height: 20px;
+                width: 100px;
+                margin: 10px;
+                border: 0px;
+                font-size: 10px;
+            }
