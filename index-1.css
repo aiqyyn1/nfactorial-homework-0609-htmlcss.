@@ -1,94 +1,86 @@
-            #joke {
-                height: auto;
-                background-color: palegoldenrod;
-                display: flex;
-                justify-content: center;
-                border: 2px solid black;
-            }
-            
-            body {
-                background-color: aqua;
-            }
-            
-            .box {
-                display: flex;
-            }
-            
-            #tom_result {
-                /* flex: 3; */
-                display: flex;
-                justify-content: center;
-                width: 100%;
-            }
-            
-            #wrapper {
-                display: flex;
-                justify-content: left;
-                align-items: left;
-                padding-top: 20px;
-                margin: 2px;
-                font-size: 30px;
-                height: 150px;
-                width: 150px;
-                flex-direction: column;
-                border: 2px solid black;
-            }
-            
-            #switch_madlibs {
-                height: 20px;
-                width: 100px;
-                margin: 10px;
-                border: 0px;
-                background-color: aqua;
-                font-size: 20px;
-            }
-            
-            #switch_tom {
-                height: 20px;
-                width: 100px;
-                margin: 10px;
-                border: 0px;
-                background-color: aqua;
-                font-size: 20px;
-            }
-            
-            #pop {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .input {
-                margin: 10px;
-            }
-            
-            .input input {
-                border: 1px solid red;
-            }
-            
-            #button {
-                height: 20px;
-                width: 100px;
-                margin: 10px;
-                border: 0px;
-                font-size: 10px;
-            }
-            
-            #example {
-                background-color: black;
-                width: 100px;
-                height: 100px;
-            }
-            
-            #madlibs_result {
-                display: flex;
-                justify-content: center;
-                width: 100%;
-            }
-            
-            #button1 {
-                height: 20px;
-                width: 100px;
-                margin: 10px;
-                border: 0px;
-                font-size: 10px;
-            }
+       
+     
+                <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div id="joke">
+        <h1 id="baha"> Assigment 7</h1>
+    </div>
+    <div class="box">
+        <div id="wrapper">
+
+            <button id="switch_madlibs">Mad Libs</button>
+            <button id="switch_tom">Tom Thumb</button>
+        </div>
+        <div id="tom_result">
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <h1 id="p1">Tom Thumb</h1>
+                </div>
+                <div>
+                    <div class="input">
+                        <label for="fname">Person name:</label>
+                        <input type="text" id="person_name">
+                    </div>
+                    <div class="input">
+                        <label for="lname">Character:</label>
+                        <input type="text" id="character">
+                    </div>
+                    <div class="input ">
+                        <label for="lname ">Adverb:</label>
+                        <input type="text " id="adverb">
+                    </div>
+                    <div class="input ">
+                        <label for="lname ">Adjective:</label>
+                        <input type="text " id="adjective">
+                    </div>
+
+
+                    <button id="button">Tell Story</button>
+
+
+                    <p id="tom_thumb_text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="madlibs_result">
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <h1 id="p1">Mad Libs</h1>
+                </div>
+                <div>
+                    <div class="input">
+                        <label for="fname">Image width:</label>
+                        <input type="text" id="width">
+                    </div>
+                    <div class="input">
+                        <label for="lname">Image height:</label>
+                        <input type="text" id="height">
+                    </div>
+                    <div class="input ">
+                        <label for="lname ">Number of colors:</label>
+                        <input type="text " id="colors">
+                    </div>
+
+
+                    <button id="button1">Calculate file size</button>
+                    <p id="madlibs_text"></p>
+                </div>
+
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="./index.js"></script>
+</body>
+
+</html>
